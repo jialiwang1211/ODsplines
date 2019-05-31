@@ -1,0 +1,20 @@
+Package: ODsplines
+Type: Package
+Title: Optimal design for smoothing splines
+Version: 0.1.0
+Author: Jiali Wang
+Maintainer: The package maintainer <jiali.wang@data61.csiro.au>
+Description: D-optimal design for smoothing splines with curvature as 
+    prior knowledge. 
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: Deriv,
+         expm,
+         dfoptim,
+         psych,
+         fda,
+         Matrix,
+         Rdpack
+RdMacros: Rdpack
